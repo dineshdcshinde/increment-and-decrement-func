@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Increment and Decrement</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,body{
+      height: 100%;
+      width: 100%;
+      background-color: #111;
+      color: white;
+    }
+
+  h1{
+    text-align: center;
+  }
+
+ 
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    gap: 2%;
+    font-size: 1.3rem;
+  }
+
+  button{
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    padding: 0.3%;
+  }
+
+  </style>
+</head>
+<body>
+  
+  <div class="wrapper">
+    <h1>Increment and Decrement</h1>
+
+    <div class="main">
+
+      <button class="minus" onclick= "dec()">
+        <i class="ri-subtract-line"></i>
+      </button>
+
+      <div class="value">0</div>
+
+      <button class="plus" onclick="inc()">
+        <i class="ri-add-line"></i>
+      </button>
+    </div>
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
